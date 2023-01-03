@@ -7,28 +7,25 @@ This repository contains the code for our paper "Geometry Point Transformer for 
   <img src="Geometry PT.png" width="480">
 </p>
 
+# News
+Code and pre-train model will be released on Feb 2022
+
 # Overview
 
 This codebase includes the following:
 
-- A compact module for generating point cloud partition using global energy methods, modified from [Superpoint Graph](https://github.com/loicland/superpoint_graph)
 - A full implementation of the Geometry Point Transformer
 - Pre-trained models for achieving state-of-the-art results on various datasets
-
-# News
-
-
-# Installation 
-
-
 
 ## Requirments:
 
 - Ubuntu: 18.04 or higher
 - CUDA: 10.2 or higher
 - PyTorch: 1.10.0 ~ 1.11.0
-- Hardware: 24G memory GPUs
+- Hardware: GPUs with memory > 24G
 
+
+<!-- 
 ## Installation for main architecture:
 
 ```bash
@@ -80,4 +77,4 @@ make
 
 ## Citation
 
-## Acknowledgement
+## Acknowledgement -->
